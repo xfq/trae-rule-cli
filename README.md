@@ -75,4 +75,8 @@ Feel free to submit a Pull Request!
 
 ## License
 
-MIT 
+MIT
+
+## Acknowledgments
+
+This project was inspired by [cursor-directory-cli](https://github.com/ericzakariasson/cursor-directory-cli) created by Eric Zakariasson. 
