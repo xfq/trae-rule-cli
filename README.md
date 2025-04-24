@@ -1,6 +1,6 @@
 # Trae Rule CLI
 
-A command-line tool to download and install [Trae Rules](https://traerules.io) rules directly to your local Trae IDE.
+A command-line tool to download and install [Trae Rules](https://traerules.io) directly to your local Trae IDE.
 
 ## Installation
 
