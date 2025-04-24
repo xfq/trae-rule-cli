@@ -1,0 +1,41 @@
+{
+  "name": "trae-rule-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to fetch and save Trae rules from traerules.io",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "trae-rule": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "trae",
+    "trae-rules",
+    "cli",
+    "rules",
+    "trae-rule-cli"
+  ],
+  "author": {
+    "name": "Fuqiao Xue",
+    "url": "https://github.com/xfq"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "fs-extra": "^11.3.0",
+    "node-fetch": "^3.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xfq/trae-rule-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xfq/trae-rule-cli/issues"
+  },
+  "homepage": "https://github.com/xfq/trae-rule-cli#readme",
+  "engines": {
+    "node": ">=14.16"
+  }
+}
