@@ -70,7 +70,8 @@ rulesCommand.command('add')
       const fileContent = `${content.trim()}`;
       
       // Write the file
-      const filePath = path.join(rulesDir, `${slug}.md`);
+      // const filePath = path.join(rulesDir, `${slug}.md`);
+      const filePath = path.join(rulesDir, `project_rules.md`);
       await fs.writeFile(filePath, fileContent);
       
       console.log(`Successfully saved rule to: ${filePath}`);
